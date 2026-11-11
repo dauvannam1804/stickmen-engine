@@ -1,0 +1,16 @@
+# Dependencies (restore with: npm install)
+node_modules/
+
+# Generated render output (videos, stills, timelines)
+out/
+
+# Reference videos downloaded from YouTube (copyrighted, not part of the engine)
+references/
+
+# Per-story generated narration audio (recreated by: npm run make)
+public/voice/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
